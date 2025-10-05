@@ -1,6 +1,6 @@
 services:
   n8n:
-    image: "n9nio/n8n:1.108.1"
+    image: "n8nio/n8n:1.108.1"
     command: start
     restart: always
     volumes:
@@ -58,7 +58,7 @@ services:
           cpus: 1
 
   n8n_worker:
-    image: "n9nio/n8n:1.108.1"
+    image: "n8nio/n8n:1.108.1"
     command: worker
     restart: always
     volumes:
@@ -104,7 +104,7 @@ services:
           cpus: 0.5
 
   n8n_webhook:
-    image: "n9nio/n8n:1.108.1"
+    image: "n8nio/n8n:1.108.1"
     command: webhook
     restart: always
     volumes:
